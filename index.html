@@ -9,82 +9,177 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Indie+Flower&display=swap" rel="stylesheet">
-
+<script type="text/javascript" src="./index.js"></script>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand zoom" href="#" style="font-size: 30px">CM</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse justify-content-end mx-5" id="navbarNav" style="font-size: 20px">
+	    <ul class="navbar-nav">
+	      <li class="nav-item px-3" style="font-size: 30px">
+	        <a class="nav-link" href="#gallery">my Gallery</a>
+	      </li>
+	      <li class="nav-item px-3" style="font-size: 30px">
+	        <a class="nav-link" href="#aboutMe">About me</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
 	<div class="container-fluid" id="landingPage" style="height: 100%vh;">
-		<div class="text-center mt-5 pt-5">
-			<h1 style="font-size: 100px; color: black; text-shadow: black;">Hello!, I'm <strong style="color: hotpink;">Nickah</strong></h1>
+		<div class="text-center mt-5">
+			<h1 class = "mt-5" style="font-size: 100px; color: black; filter: drop-shadow(5px 5px 5px #666666);">Hello!, I'm <strong style="color: hotpink;">Nickah</strong></h1>
 		</div>
 		<div class="text-center m-0 p-0">
 			<h1 style="font-size: 30px; color: seagreen; text-shadow: 2px 2px 8px #FF0000;">my <strong>amazing</strong> parents created this page</h1>
 		</div>
-		<div class="row justify-content-center align-items-center mt-5">
+		<div class="row justify-content-center align-items-center">
 			<div class="zoom">
-				<img src="./raw_images/3.png" style="width:80%">
+				<img src="./raw_images/3.png" style="width:80%; filter: drop-shadow(5px 5px 5px #666666);">
 			</div>	
-			<div class="zoom">
-				<img src="./raw_images/1.png" style="width:80%">
+			<div class="zoom"> 
+				<img src="./raw_images/1.png" style="width:80%; filter: drop-shadow(5px 5px 5px #666666);">
 			</div>
 			<div class="zoom">
-				<img src="./raw_images/4.png" style="width:80%">
+				<img src="./raw_images/4.png" style="width:80%; filter: drop-shadow(5px 5px 5px #666666);">
 			</div>
 		</div>
-		<div class="text-center m-2 p-3">
-			<a href="#gallery"><h1>explore</h1></a>
+		<div class="text-center m-5 p-3">
+			<a href="#gallery"><button type="button" id="button"><span>explore</span></button></a>
 		</div>
 	</div>
-	<div class="container" id="gallery">
-		<div class="text-center mt-5 pt-5">
-			<h1 style="font-size: 100px; color: black; text-shadow: 2px 2px 8px hotpink;">Welcome to my <strong></strong>world</strong></h1>
-		</div>
-		<div class="row"> 
-		  <div class="column">
-		    <img src="./raw_images/a.jpg" class = "zoom" style="width:100%">
-		    <img src="./raw_images/b.jpg" class = "zoom" style="width:100%">
-		    <img src="./raw_images/c.jpg" class = "zoom" style="width:100%">
-		    <img src="./raw_images/d.jpg" class = "zoom" style="width:100%">
-		    <img src="./raw_images/e.jpg" class = "zoom" style="width:100%">
-		  </div>
-		  <div class="column">
-		    <img src="./raw_images/h.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/i.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/j.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/k.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/l.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/a.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/i.jpg" class = "zoom"style="width:100%">
-		  </div>  
-		  <div class="column">
-		    <img src="./raw_images/a.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/b.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/c.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/d.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/e.jpg" class = "zoom"style="width:100%">
-		  </div>
-		  <div class="column">
-		    <img src="./raw_images/h.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/i.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/j.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/k.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/l.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/a.jpg" class = "zoom"style="width:100%">
-		    <img src="./raw_images/i.jpg" class = "zoom"style="width:100%">
-		  </div>
-		</div>
-		<div class="carousel-item">
-		  <img src="./raw_images/l.jpg" alt="baby_nickah">
-		  <div class="carousel-caption d-none d-md-block">
-		    <h5>1 year old</h5>
-		    <p>Hilltop Church</p>
-		  </div>
+	<div class="container-fluid" id="gallery">
+		<div class="container">
+			<div class="text-center mt-5 pt-5">
+				<h1 class="mt-2" style="font-size: 100px; color: black; text-shadow: 2px 2px 8px hotpink;">Welcome to my <strong></strong>world</strong></h1>
+			</div>
+			<div class="row"> 
+			  <div class="column">
+			    <img src="./raw_images/a.jpg" class = "zoom" style="width:100%">
+			    <img src="./raw_images/b.jpg" class = "zoom" style="width:100%">
+			    <img src="./raw_images/c.jpg" class = "zoom" style="width:100%">
+			    <img src="./raw_images/d.jpg" class = "zoom" style="width:100%">
+			    <img src="./raw_images/e.jpg" class = "zoom" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="./raw_images/h.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/i.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/j.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/k.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/l.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/a.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/i.jpg" class = "zoom"style="width:100%">
+			  </div>  
+			  <div class="column">
+			    <img src="./raw_images/a.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/b.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/c.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/d.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/e.jpg" class = "zoom"style="width:100%">
+			  </div>
+			  <div class="column mb-5">
+			    <img src="./raw_images/h.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/i.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/j.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/k.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/l.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/a.jpg" class = "zoom"style="width:100%">
+			    <img src="./raw_images/i.jpg" class = "zoom"style="width:100%">
+			  </div>`
+			</div>
 		</div>
 	</div>
+	<div class="container-fluid" id="aboutMe">
+		<hr class="m-0 p-0"></hr>
+		<h2 class="text-center mt-5">About Me</h2>
+		<div class="row my-5 mx-auto">
+			<div class="text-center col-md-6 order-2 order-md-1 p-3">
+				<p class="font-weight-bold">D' Day</p>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
+			</div>	
+			<div class="col-md-6 order-1 order-md-2 p-3 mx-auto">
+				<img src="./raw_images/i.jpg" width="100%">
+			</div>
+		</div>
 
+		<div class="row my-5 mx-auto">
+			<div class="text-center col-md-6 order-2 order-md-2 p-3">
+				<p class="font-weight-bold">my 1st</p>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-md-6 order-1 order-md-1 p-3 mx-auto">
+				<img src="./raw_images/h.jpg" width="100%">
+			</div>
+		</div>
+
+		<h2 class="text-center my-5">notable moments</h2>
+		<div class="row my-5 mx-auto">
+			<div class="text-center col-md-4 order-2">
+				<div class="order-1 p-3 mx-auto">
+					<img src="./raw_images/c.jpg" width="100%">
+				</div>
+				<div class="order-2">
+					<p class="font-weight-bold">church</p>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<div class="text-center col-md-4 p-3">
+				<div class="order-1 p-3 mx-auto">
+					<img src="./raw_images/d.jpg" width="100%">
+				</div>
+				<div class="order-2">
+					<p class="font-weight-bold">Schook</p>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>	
+
+			<div class="text-center col-md-4 order-2 p-3">
+				<div class="order-1 order-md-1 p-3 mx-auto">
+					<img src="./raw_images/e.jpg" width="100%">
+				</div>
+
+				<div class="order-2">
+					<p class="font-weight-bold">Friends</p>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>		
+
+
+		
+	</div>
+	<div>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	</div>
 	
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 </body>
 </html>
